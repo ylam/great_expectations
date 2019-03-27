@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('example.db')
+conn = sqlite3.connect('ge_custom_sql.db')
  
 c = conn.cursor()
 c.execute('''
