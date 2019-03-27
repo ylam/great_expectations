@@ -16,7 +16,7 @@ class CustomSqlAlchemyDataset(SqlAlchemyDataset):
         }
 
 def custom_dataset():
-    engine = sa.create_engine('sqlite:///example.db')
+    engine = sa.create_engine('sqlite:///ge_custom_sql.db')
     query = '''
         select p.id, p.name, a.street_name
         from person as p 
